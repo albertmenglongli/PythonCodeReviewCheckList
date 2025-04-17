@@ -54,16 +54,16 @@ Python函数命名CodeReview检查清单：
             优先使用具体描述：user_data、transaction_info ✅
             禁止使用data、info等模糊词汇 ❌
 
-    10. 上下文冗余消除
+    9. 上下文冗余消除
         ✅ 类方法避免重复类名：
             User.get_profile() ✅
             禁止User.get_user_profile() ❌
     
-    11. 拼写校验强制项
+    10. 拼写校验强制项
         ✅ 使用IDE拼写检查插件验证：
             initialise（英式）vs initialize（美式）需统一
 
-    12. 时间相关函数命名
+    11. 时间相关函数命名
         ✅ 涉及时间的函数需明确单位或范围：
             get_current_timestamp() ✅ 
             calculate_duration_in_seconds() ✅
